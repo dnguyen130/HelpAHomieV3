@@ -3,7 +3,7 @@ html, body{
     background-color: #3b3b3b;
 }
 
-#main{
+.main{
     min-width: 100vw;
     min-height: 100vh;
     
