@@ -6,11 +6,14 @@ function BackgroundUI()
             width: 100vw;
             height: 100vh;
         "
+        onclick='BackgroundUI.HandCLick(this)'
         >
             <img src="https://svgur.com/i/Ufw.svg"
+                onmouseover="this.src='https://svgur.com/i/Uh5.svg'"
+                onmouseout="this.src='https://svgur.com/i/Ufw.svg'"
             />
         </div>
     `
 }
 
-// export const Background = BackgroundUI();
+export const Background = BackgroundUI();

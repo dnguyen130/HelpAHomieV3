@@ -13,4 +13,4 @@ function BackgroundUI()
     `
 }
 
-// export const Background = BackgroundUI();
+export const Background = BackgroundUI();

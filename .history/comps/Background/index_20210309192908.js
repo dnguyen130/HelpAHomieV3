@@ -6,6 +6,7 @@ function BackgroundUI()
             width: 100vw;
             height: 100vh;
         "
+        onclick='BackgroundUI.HandCLick(this)'
         >
             <img src="https://svgur.com/i/Ufw.svg"
             />
@@ -13,4 +14,4 @@ function BackgroundUI()
     `
 }
 
-// export const Background = BackgroundUI();
+export const Background = BackgroundUI();
