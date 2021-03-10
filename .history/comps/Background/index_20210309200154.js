@@ -1,4 +1,4 @@
-function BackgroundUI(image="images/backgroundscreen.svg")
+function BackgroundUI(image="../images/backgroundscreen.svg")
 {
     return `
         <div style=
@@ -11,8 +11,7 @@ function BackgroundUI(image="images/backgroundscreen.svg")
         >
             <img src="${image}"
             style="
-                object-fit: contain;
-                max-height: 100%;
+                object-fit: cover;
             "
             />
         </div>

@@ -11,8 +11,9 @@ function BackgroundUI(image="images/backgroundscreen.svg")
         >
             <img src="${image}"
             style="
-                object-fit: contain;
-                max-height: 100%;
+                object-fit: cover;
+                max-width: 100%;
+                max-height: 100%
             "
             />
         </div>
