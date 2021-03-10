@@ -4,7 +4,35 @@ html, body{
 }
 
 .main{
+    display: flex;
     min-width: 100vw;
     min-height: 100vh;
+    justify-content: center;
+    align-items: center;
     
+}
+
+.Titlebox {
+/* Rectangle 2 */
+position: fixed;
+display: flex;
+justify-content: center;
+width: 949px;
+height: 106px;
+left: 415px;
+top: 80px;
+background: #D8B1FF;
+border: 5px solid #000000;
+border-radius: 25px;
+
+
+/* Cognitive Behavioural Therapy */
+font-family: 'Orbitron', sans-serif;font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 93px;
+
+/* identical to box height */
+text-align: center;
+color: #000000;
 }
