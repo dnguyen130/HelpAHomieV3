@@ -1,1 +1,1 @@
-document.querySelector(".main").innerHTML += BackgroundUI();
+document.querySelector(".bigtext").innerHTML += InformationUI();
