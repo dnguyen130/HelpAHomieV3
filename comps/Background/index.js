@@ -5,7 +5,8 @@ function BackgroundUI(image="images/backgroundscreen.svg")
         "
             width: 100vw;
             height: 100vh;
-            
+            display: flex;
+            justify-content:center;
             overflow: hidden;
         "
         >
