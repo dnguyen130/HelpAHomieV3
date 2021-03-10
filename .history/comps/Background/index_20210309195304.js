@@ -3,16 +3,13 @@ function BackgroundUI(image="images/backgroundscreen.svg")
     return `
         <div style=
         "
-            width: 100vw;
-            height: 100vh;
-            
+            width: auto;
+            height: auto;
+            object-fit: cover;
             overflow: hidden;
         "
         >
             <img src="${image}"
-            style="
-                object-fit: cover;
-            "
             />
         </div>
     `

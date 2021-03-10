@@ -6,7 +6,7 @@ function BackgroundUI(image="images/backgroundscreen.svg")
             width: 100vw;
             height: 100vh;
             
-            overflow: hidden;
+            
         "
         >
             <img src="${image}"

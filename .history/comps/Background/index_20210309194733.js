@@ -1,18 +1,13 @@
-function BackgroundUI(image="images/backgroundscreen.svg")
+function BackgroundUI(image)
 {
     return `
         <div style=
         "
             width: 100vw;
-            height: 100vh;
-            
-            overflow: hidden;
+            height: 50%;
         "
         >
             <img src="${image}"
-            style="
-                object-fit: cover;
-            "
             />
         </div>
     `

@@ -10,9 +10,6 @@ function BackgroundUI(image="images/backgroundscreen.svg")
         "
         >
             <img src="${image}"
-            style="
-                object-fit: cover;
-            "
             />
         </div>
     `
