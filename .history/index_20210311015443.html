@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oregano&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="main">
+        <div class="home height flex evenly">
+            <div class="home-info height flex evenly"></div>
+            <div class="home-button height flex evenly" onclick="HomeToDoors()"></div>
+        </div>
+        
+        <div class="door-container none">
+            <div class="height flex evenly" id="door-screen1">
+                <div class="door-up-button"></div>
+                <div class="door" onclick="DoorsToBradley()"></div>
+                <div class="door-down-button"></div>
+            </div>
+            <div class="height flex evenly" id="door-screen2">
+                <div class="door-up-button2"></div>
+                <div class="door2" onclick="DoorsToStacy()"></div>
+                <div class="door-down-button2"></div>
+            </div>
+            <div class="height flex evenly" id="door-screen3">
+                <div class="door-up-button2"></div>
+                <div class="door2" onclick="DoorsToStacy()"></div>
+                <div class="door-down-button2"></div>
+            </div>
+        </div>
+
+        <div class="bradley-room height between none">
+            <div class="about-me"></div>
+            <div class="bradley flex"></div>
+        </div>
+
+        <div class="stacy-room height between none">
+            <div class="about-me2"></div>
+            <div class="stacy flex"></div>
+        </div>
+
+        <div class="greg-room"></div>
+    </div>
+    
+    <script src="./comps/Door/index.js"></script>
+    <script src="./comps/TriangleButton/index.js"></script>
+    <script src="./comps/TitleDesc/index.js"></script>
+    <script src="./comps/TitleSquare/index.js"></script>
+    <script src="./comps/LargeButton/index.js"></script>
+    <script src="./comps/Characters/index.js"></script>
+    <script src="navigation.js"></script>
+    <script src="workflow.js"></script>
+</body>
+</html>
