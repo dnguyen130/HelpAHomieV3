@@ -1,0 +1,29 @@
+html, body{
+    margin: 0;
+}
+
+.home{
+    background-color: black;
+    display: none;
+}
+
+.height{
+    height: 100vh;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.door-screen1{
+    background: linear-gradient(133.83deg, #CFE4EE 24.49%, #82715E 51.06%, #F3F3F3 75.51%);
+}
+
+.door-screen2{
+    background: linear-gradient(133.83deg, #678AEE 24.49%, #A8A8A8 51.06%, #20305E 75.51%);
+}
+
+.door-screen3{
+    background: linear-gradient(133.83deg, #2F1A12 24.49%, #D6991E 52.28%, #A95715 77.85%);
+}
