@@ -7,18 +7,18 @@ function AboutUI(tMain="GOTTEM", bottomright="#E43131", topleft="#FFFFFF", pMain
     background: linear-gradient(315deg, ${bottomright}, ${topleft});
     height: 100vh;
     width: 100%;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    padding: 0, 3rem;
     "
     > 
     <h2 style= 
     "
     display: flex;
     font-family: Arial;
-    font-size: 5rem;
+    font-size: 4rem;
     margin: 0;
     "
     >
@@ -27,8 +27,8 @@ function AboutUI(tMain="GOTTEM", bottomright="#E43131", topleft="#FFFFFF", pMain
     <p style= 
     "
     font-family: Arial;
-    font-size: 2rem;
-    padding-left: 1rem;
+    font-size: 1rem;
+    width: 100%;
     ">
     ${pMain}
     </p>

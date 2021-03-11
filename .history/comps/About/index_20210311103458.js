@@ -9,7 +9,6 @@ function AboutUI(tMain="GOTTEM", bottomright="#E43131", topleft="#FFFFFF", pMain
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
     "

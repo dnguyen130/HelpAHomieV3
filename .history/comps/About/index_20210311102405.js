@@ -7,11 +7,7 @@ function AboutUI(tMain="GOTTEM", bottomright="#E43131", topleft="#FFFFFF", pMain
     background: linear-gradient(315deg, ${bottomright}, ${topleft});
     height: 100vh;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    padding: 2rem;
     "
     > 
     <h2 style= 
@@ -26,9 +22,11 @@ function AboutUI(tMain="GOTTEM", bottomright="#E43131", topleft="#FFFFFF", pMain
     </h2>
     <p style= 
     "
+    display: flex;
+    flex-direction: column;
     font-family: Arial;
     font-size: 2rem;
-    padding-left: 1rem;
+    width: 100%;
     ">
     ${pMain}
     </p>
