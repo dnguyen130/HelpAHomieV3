@@ -1,0 +1,117 @@
+html, body{
+    margin: 0;
+}
+
+.main{
+    user-select: none;
+    max-height: 100vh;
+}
+
+.flex{
+    display: flex;
+}
+
+.none{
+    display: none;
+}
+
+.height{
+    height: 100vh;
+    width: 500px;
+}
+
+.evenly{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.between{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/** home page **/
+.home{
+    background: linear-gradient(198.76deg, #EFDEFF 12.68%, #C4FEC4 87.32%);
+}
+
+/** door page **/
+
+#door-screen1{
+    background: linear-gradient(133.83deg, #CFE4EE 24.49%, #82715E 51.06%, #F3F3F3 75.51%);
+}
+
+#door-screen2{
+    background: linear-gradient(133.83deg, #678AEE 24.49%, #A8A8A8 51.06%, #20305E 75.51%);
+}
+
+#door-screen3{
+    background: linear-gradient(133.83deg, #2F1A12 24.49%, #D6991E 52.28%, #A95715 77.85%);
+}
+
+/** bradley room **/
+.bradley-room{
+    background-image: url(./images/bradleybed.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100vh;
+}
+
+.bradley{
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 25rem;
+}
+
+.about-me{
+    margin-top: 50px;
+    z-index: 2;
+}
+
+/** stacy room **/
+.stacy-room{
+    background-image: url(./images/stacybed.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100vh;
+}
+
+.stacy{
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 25rem;
+}
+
+.about-me2{
+    margin-top: 50px;
+    z-index: 2;
+}
+
+/** greg room **/
+.greg-room{
+    background-image: url(./images/gregbed.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100vh;
+}
+
+.greg{
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 25rem;
+}
+
+.about-me3{
+    margin-top: 50px;
+    z-index: 2;
+}
+
+/** about me bradley **/
+.about-me-bradley{
+    height: 100vh;
+}
