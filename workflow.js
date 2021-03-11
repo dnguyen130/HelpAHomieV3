@@ -1,4 +1,5 @@
 //home page
+document.querySelector(".home").innerHTML += 
 
 // door page
 document.querySelector("#door-screen1").innerHTML += TriangleButtonUI("door-screen1");

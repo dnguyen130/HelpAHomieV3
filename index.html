@@ -7,15 +7,29 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oregano&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="main"></div>
-    <div class="main2"></div>
+
+    <div class="main">
+        <div class="home" onclick="HomeToDoors()">
+
+        </div>
+        
+        <div class="door-container none">
+            <div class="height flex" id="door-screen1">
+            </div>
+            <div class="height flex" id="door-screen2">
+            </div>
+            <div class="height flex" id="door-screen3">
+            </div>
+        </div>
+    </div>
     
-    <script src="comps/TitleSquare/index.js"></script>
-    <script src="comps/TitleDesc/index.js"></script>
+    <script src="./comps/Door/index.js"></script>
+    <script src="./comps/TriangleButton/index.js"></script>
+    <script src="./comps/TitleDesc/index.js"></script>
+    <script src="./comps/TitleSquare/index.js"></script>
+    <script src="navigation.js"></script>
     <script src="workflow.js"></script>
 </body>
 </html>
