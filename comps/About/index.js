@@ -14,6 +14,7 @@ function AboutUI(tMain="GOTTEM", bottomright="#E43131", topleft="#FFFFFF", pMain
     display: flex;
     font-family: Arial;
     font-size: 5rem;
+    margin: 0;
     "
     >
     ${tMain}
@@ -21,7 +22,7 @@ function AboutUI(tMain="GOTTEM", bottomright="#E43131", topleft="#FFFFFF", pMain
     <p style= 
     "
     display: flex;
-    margin: 15px;
+    flex-direction: column;
     font-family: Arial;
     font-size: 2rem;
     width: 100%;
