@@ -1,0 +1,24 @@
+function TriangleButtonUI(url="#", tri="images/Circle-Triangle.png") {
+    return `
+    <a href="#${url}">
+    <div style="
+            width: 3rem;
+            height: 3rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 3rem;
+            border-radius: 25rem;
+            background-color: #FFFFFF;
+        "
+        onmouseover="this.style.boxShadow= '0px 0px 10px 5px rgba(251, 0, 181, 0.7)'"
+        onmouseout="this.style.boxShadow='0px 0px 0px 0px rgba(251, 0, 181, 0.7)'"
+        >
+            
+                <img 
+                src="${tri}"
+                />
+        </div>
+        </a>
+    `
+}

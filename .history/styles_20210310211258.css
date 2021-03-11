@@ -1,0 +1,25 @@
+html, body{
+    margin: 0;
+}
+
+
+.height{
+    height: 100vh;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.door-screen1{
+    background: linear-gradient(133.83deg, #CFE4EE 24.49%, #82715E 51.06%, #F3F3F3 75.51%);
+}
+
+.door-screen2{
+    background-color: red;
+}
+
+.door-screen3{
+    background-color: green;
+}
