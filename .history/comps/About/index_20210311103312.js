@@ -27,8 +27,8 @@ function AboutUI(tMain="GOTTEM", bottomright="#E43131", topleft="#FFFFFF", pMain
     <p style= 
     "
     font-family: Arial;
-    font-size: 2rem;
-    padding-left: 1rem;
+    font-size: 1.5rem;
+    padding-left: 3rem;
     ">
     ${pMain}
     </p>

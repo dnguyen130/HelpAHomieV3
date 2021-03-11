@@ -9,7 +9,6 @@ function AboutUI(tMain="GOTTEM", bottomright="#E43131", topleft="#FFFFFF", pMain
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
     "
@@ -27,8 +26,8 @@ function AboutUI(tMain="GOTTEM", bottomright="#E43131", topleft="#FFFFFF", pMain
     <p style= 
     "
     font-family: Arial;
-    font-size: 2rem;
-    padding-left: 1rem;
+    font-size: 1.5rem;
+    padding-left: 2rem;
     ">
     ${pMain}
     </p>

@@ -7,6 +7,7 @@ function AboutUI(tMain="GOTTEM", bottomright="#E43131", topleft="#FFFFFF", pMain
     background: linear-gradient(315deg, ${bottomright}, ${topleft});
     height: 100vh;
     width: 100%;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,8 +28,8 @@ function AboutUI(tMain="GOTTEM", bottomright="#E43131", topleft="#FFFFFF", pMain
     <p style= 
     "
     font-family: Arial;
-    font-size: 2rem;
-    padding-left: 1rem;
+    font-size: 1.5rem;
+    padding-left: 3rem;
     ">
     ${pMain}
     </p>
